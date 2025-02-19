@@ -22,8 +22,8 @@ submission_reminder_<yourName>/
 - modules/functions.sh: Has functions to check submissions.
 - app/reminder.sh: The main script that checks for submissions.
 - startup.sh: Starts the application by executing 
-#3. How to Set It Up
 
+#3. How to Set It Up
 1. Download or Clone the project.
 2. Go to the Project Folder:
 3. Run the script:bash create_environment.sh

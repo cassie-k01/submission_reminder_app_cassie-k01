@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Prompt for user's name
-read -p "Enter your name: " userName
+read -p "Enter your name: " username
 
 # Define main directory
-sub_dir="submission_reminder_${userName}"
+sub_dir="submission_reminder_${username}"
 
 # Create directory structure
 mkdir -p "$sub_dir/config"
@@ -38,7 +38,7 @@ Tesy, Shell Navigation, not submitted
 Kevine, Shell Navigation, not submitted
 Darcy, Shell Navigation, not submitted
 Sarah, Shell Navigation, not submitted
-Fallon, Shell Navigation, submitted
+Brent, Shell Navigation, submitted
 EOF
 
 # Populate functions.sh

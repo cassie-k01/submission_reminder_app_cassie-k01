@@ -5,6 +5,7 @@ This is a simple Bash script that helps you keep track of student assignment sub
 
 #1.Folder Structure
 When you run the script, it will create this structure:
+
 submission_reminder_<yourName>/
 ├── config/
 │   └── config.env

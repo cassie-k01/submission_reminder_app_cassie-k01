@@ -1,4 +1,4 @@
-#!/bin/bash
+#i!/bin/bash
 
 # Prompt for user's name
 read -p "Enter your name: " username
@@ -6,13 +6,13 @@ read -p "Enter your name: " username
 # Define main directory
 sub_dir="submission_reminder_${username}"
 
-# Create directory structure
+# Create directories
 mkdir -p "$sub_dir/config"
 mkdir -p "$sub_dir/modules"
 mkdir -p "$sub_dir/app"
 mkdir -p "$sub_dir/assets"
 
-# Create necessary files
+#  files
 touch "$sub_dir/config/config.env"
 touch "$sub_dir/assets/submissions.txt"
 touch "$sub_dir/app/reminder.sh"
@@ -27,7 +27,7 @@ ASSIGNMENT="Shell Navigation"
 DAYS_REMAINING=2
 EOF
 
-# Populate submissions.txt with sample student records
+# Submissions.txt with sample student records
 cat << EOF > "$sub_dir/assets/submissions.txt"
 student, assignment, submission status
 Chinemerem, Shell Navigation, not submitted
